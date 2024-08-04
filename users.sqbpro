@@ -1,0 +1,11 @@
+CREATE TABLE "users" (
+	"id"	INTEGER,
+	"username"	TEXT,
+	"year"	INTEGER,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
+INSERT INTO users (username, year)
+VALUES ("John Doe", 20);
+
+SELECT * FROM users
